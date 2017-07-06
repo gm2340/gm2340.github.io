@@ -1,5 +1,5 @@
 
-
+/*Used and adapted from Java 1*/
 function buttonPushed() {
   var getName = document.querySelector('#inputName');
   var firstname = getName.value;
@@ -14,7 +14,7 @@ function buttonPushed() {
   document.getElementById("demo").innerHTML += "There is a growing community of middle schoolers who like " + hobby +" books who are just like you! May I make some suggestions?" + "<br>";
 }
 
-
+/*From lessons with Professor Kuwata*/
 var bookList = [
      {
        theme: "YA Topics/YA Dystopian",
@@ -77,7 +77,8 @@ var bookList = [
        author: "J.K. Rowling "
      }
    ];
-   
+  
+/*Thank you for the hints! */
   function winning(event) {
    var hobby = document.querySelector('[name="hobbyRB"]:checked').value; 
     for (var test of bookList) {
